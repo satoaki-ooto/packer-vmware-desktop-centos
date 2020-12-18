@@ -47,7 +47,7 @@
                 "type": "vagrant-cloud",
                 "box_tag": "ooto/centos",
                 "access_token": "{{user `cloud_token`}}",
-                "version": "centos-stream-{{user `centos_major_version`}}-{{user `iso_version`}}.{{user `release_version`}}",
+                "version": "{{user `centos_major_version`}}.{{user `iso_version`}}",
                 "no_release": "{{user `no_release`}}"
             }
         ]
