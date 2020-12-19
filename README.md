@@ -1,4 +1,4 @@
-# Vario Vagrant Boxes - CentOS
+# Vagrant Boxes - CentOS
 
 ## Overview
 
