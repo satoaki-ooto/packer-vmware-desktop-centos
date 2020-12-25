@@ -20,6 +20,7 @@ We make use of JSON files containing user variables to build specific version of
 You tell `packer` to use a specific user variable file via the `-var-file=` command line option.  
 
 For example, to build on VMware Platform, use the following:
+
 ```bash
 # CentOS Stream
 $ CENTOS_VERSION=8 make build
